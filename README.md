@@ -1,18 +1,26 @@
-Objetivo Final:
-Realizar a criação de 2 redes diferentes e realizar a comunicação via ICMP entre uma e outra.
+# Objetivo Final
 
-Rede A (Alunos)
-192.168.0.0/24 192.168.10.254 (Gateway) 192.168.10.253 (DHCP e DNS)
+Realizar a criação de duas redes diferentes e estabelecer a comunicação via ICMP entre ambas.
 
-Criação de Outras 4 máquinas dentro da Rede Interna A utilizando DHCP para desktops, e IP fixo para Servidores.
+## Rede A (Alunos)
+- Endereço IP: 192.168.0.0/24
+- Gateway: 192.168.10.254
+- DHCP e DNS: 192.168.10.253
 
-Rede B (Alunos)
-172.15.0.254/24 172.15.0.254 (Gateway) 172.15.0.253 (DHCP e DNS) 172.15.0.252 (Servidor Web)
+Criação de outras 4 máquinas dentro da Rede Interna A utilizando DHCP para desktops e IP fixo para servidores.
 
-Criação de Outras 5 máquinas dentro da Rede Interna B utilizando DHCP para desktops, e IP fixo para Servidores.
+## Rede B (Alunos)
+- Endereço IP: 172.15.0.254/24
+- Gateway: 172.15.0.254
+- DHCP e DNS: 172.15.0.253
+- Servidor Web: 172.15.0.252
 
-Equipamentos:
-1 Router 1841 3 Switches 2960 24TT
+Criação de outras 5 máquinas dentro da Rede Interna B utilizando DHCP para desktops e IP fixo para servidores.
 
-Explicação:
-O objetivo final, é que um dos Desktops da Rede A, consiga colocar em seu navegador interno, o endereço do Site do Servidor WEB que está na REDE B, e a página possa ser carregada corretamente, validando deste modo o Roteamento entre as Redes, DNS e a camada da Aplicação funcionando corretamente.
+## Equipamentos
+- 1 Router 1841
+- 3 Switches 2960 24TT
+
+## Explicação
+
+O objetivo final é que um dos desktops da Rede A consiga, por meio de seu navegador interno, acessar o endereço do site do servidor web localizado na Rede B. A página deve ser carregada corretamente, validando assim o roteamento entre as redes, o funcionamento adequado do DNS e a camada de aplicação.
